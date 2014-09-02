@@ -1,0 +1,20 @@
+﻿<controls:ChildWindow x:Class="UI.Layout.MsgWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="300" Height="200" 
+           Title="提示">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock x:Name="titleTxt" FontSize="18" TextAlignment="Center" FontFamily="Microsoft YaHei" Text="恭喜你过关了"/>
+            <TextBlock x:Name="contentTxt" FontSize="15" FontFamily="Microsoft YaHei" Margin="0 5 0 0"
+                   TextWrapping="Wrap" Text="此关你得到了1级兵符，此兵符将使你能开启下一关！" />
+            <Image x:Name="img" Source="/UI;component/Images/grade1.png" Height="50"/>
+        </StackPanel>
+        <Button x:Name="OKButton" Content="确 定" Click="OKButton_Click" Width="55" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
+    </Grid>
+</controls:ChildWindow>

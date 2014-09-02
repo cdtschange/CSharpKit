@@ -1,0 +1,15 @@
+<OutOfBrowserSettings ShortName="石头剪刀布" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>石头剪刀布是一款可玩性非常高的小游戏，她易上手而且富有趣味性。和你对战的电脑会随着你游戏时间增长而变聪明，你会发现，她一直努力尝试去了解你的习惯并对你猜拳选择进行准确的预判，她会越来越难以战胜，因为她一直在不断地学习。此产品版权归山天大畜所有！</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="石头剪刀布" Height="400" Width="400" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.SecuritySettings>
+    <SecuritySettings ElevatedPermissions="Required" />
+  </OutOfBrowserSettings.SecuritySettings>
+  <OutOfBrowserSettings.Icons>
+    <Icon Size="16,16">Images/logo_16.png</Icon>
+    <Icon Size="32,32">Images/logo_32.png</Icon>
+    <Icon Size="48,48">Images/logo_48.png</Icon>
+    <Icon Size="128,128">Images/logo_128.png</Icon>
+  </OutOfBrowserSettings.Icons>
+</OutOfBrowserSettings>

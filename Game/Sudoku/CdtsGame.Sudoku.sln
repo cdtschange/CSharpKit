@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.Core.Silverlight", "..\Core\1.0\Silverlight\CdtsGame.Core.Silverlight.csproj", "{82323500-F18F-467A-81DC-A8D305F49810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.UISudoku", "1.0\Source\UI\CdtsGame.UISudoku.csproj", "{58454336-3EFC-44A3-928D-03AD599FC1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.UISudoku.Web", "1.0\Source\Web\CdtsGame.UISudoku.Web.csproj", "{290ADAA7-A0A6-4A74-9452-A53A80C96DA4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccProjectUniqueName0 = ..\\Core\\1.0\\Silverlight\\CdtsGame.Core.Silverlight.csproj
+		SccProjectName0 = ../Core/1.0/Silverlight
+		SccLocalPath0 = ..\\Core\\1.0\\Silverlight
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = 1.0\\Source\\UI\\CdtsGame.UISudoku.csproj
+		SccProjectName2 = 1.0/Source/UI
+		SccLocalPath2 = 1.0\\Source\\UI
+		SccProjectUniqueName3 = 1.0\\Source\\Web\\CdtsGame.UISudoku.Web.csproj
+		SccProjectName3 = 1.0/Source/Web
+		SccLocalPath3 = 1.0\\Source\\Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58454336-3EFC-44A3-928D-03AD599FC1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58454336-3EFC-44A3-928D-03AD599FC1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58454336-3EFC-44A3-928D-03AD599FC1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58454336-3EFC-44A3-928D-03AD599FC1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290ADAA7-A0A6-4A74-9452-A53A80C96DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290ADAA7-A0A6-4A74-9452-A53A80C96DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290ADAA7-A0A6-4A74-9452-A53A80C96DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290ADAA7-A0A6-4A74-9452-A53A80C96DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

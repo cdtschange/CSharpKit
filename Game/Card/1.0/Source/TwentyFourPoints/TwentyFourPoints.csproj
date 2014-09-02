@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83304CCA-2764-496B-8446-0C74995952AF}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TwentyFourPoints</RootNamespace>
+    <AssemblyName>TwentyFourPoints</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>zh-Hans</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>TwentyFourPoints.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>TwentyFourPoints.App</SilverlightAppEntry>
+    <TestPageFileName>TwentyFourPointsTestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>
+    </LinkedServerProject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameTable.xaml.cs">
+      <DependentUpon>GameTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Operation.xaml.cs">
+      <DependentUpon>Operation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="GameTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Operation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tabel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C1.png">
+      <Link>Images\C1.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C10.png">
+      <Link>Images\C10.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C2.png">
+      <Link>Images\C2.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C3.png">
+      <Link>Images\C3.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C4.png">
+      <Link>Images\C4.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C5.png">
+      <Link>Images\C5.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C6.png">
+      <Link>Images\C6.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C7.png">
+      <Link>Images\C7.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C8.png">
+      <Link>Images\C8.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\C9.png">
+      <Link>Images\C9.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\CJ.png">
+      <Link>Images\CJ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\CK.png">
+      <Link>Images\CK.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\CQ.png">
+      <Link>Images\CQ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D1.png">
+      <Link>Images\D1.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D10.png">
+      <Link>Images\D10.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D2.png">
+      <Link>Images\D2.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D3.png">
+      <Link>Images\D3.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D4.png">
+      <Link>Images\D4.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D5.png">
+      <Link>Images\D5.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D6.png">
+      <Link>Images\D6.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D7.png">
+      <Link>Images\D7.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D8.png">
+      <Link>Images\D8.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\D9.png">
+      <Link>Images\D9.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\DJ.png">
+      <Link>Images\DJ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\DK.png">
+      <Link>Images\DK.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\DQ.png">
+      <Link>Images\DQ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H1.png">
+      <Link>Images\H1.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H10.png">
+      <Link>Images\H10.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H2.png">
+      <Link>Images\H2.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H3.png">
+      <Link>Images\H3.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H4.png">
+      <Link>Images\H4.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H5.png">
+      <Link>Images\H5.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H6.png">
+      <Link>Images\H6.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H7.png">
+      <Link>Images\H7.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H8.png">
+      <Link>Images\H8.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\H9.png">
+      <Link>Images\H9.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\HJ.png">
+      <Link>Images\HJ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\HK.png">
+      <Link>Images\HK.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\HQ.png">
+      <Link>Images\HQ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\Null.png">
+      <Link>Images\Null.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\Null2.png">
+      <Link>Images\Null2.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S1.png">
+      <Link>Images\S1.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S10.png">
+      <Link>Images\S10.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S2.png">
+      <Link>Images\S2.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S3.png">
+      <Link>Images\S3.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S4.png">
+      <Link>Images\S4.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S5.png">
+      <Link>Images\S5.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S6.png">
+      <Link>Images\S6.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S7.png">
+      <Link>Images\S7.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S8.png">
+      <Link>Images\S8.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\S9.png">
+      <Link>Images\S9.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\SJ.png">
+      <Link>Images\SJ.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\SK.png">
+      <Link>Images\SK.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\Core\1.0\Source\Images\Card\SQ.png">
+      <Link>Images\SQ.png</Link>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\1.0\Silverlight\CdtsGame.Core.Silverlight.csproj">
+      <Project>{82323500-F18F-467A-81DC-A8D305F49810}</Project>
+      <Name>CdtsGame.Core.Silverlight</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\divide.png" />
+    <Resource Include="Images\multi.png" />
+    <Resource Include="Images\plus.png" />
+    <Resource Include="Images\sub.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

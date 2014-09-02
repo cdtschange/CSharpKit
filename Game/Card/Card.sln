@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitaire", "1.0\Source\Solitaire\Solitaire.csproj", "{133D7BE1-BC09-4D46-8784-8F49251665F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.Core", "..\Core\1.0\Source\CdtsGame.Core.csproj", "{6388FC36-4FB0-49AE-B625-43E29FBCB003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.Core.Silverlight", "..\Core\1.0\Silverlight\CdtsGame.Core.Silverlight.csproj", "{82323500-F18F-467A-81DC-A8D305F49810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "1.0\Source\Web\Web.csproj", "{E73F9009-CBEF-4008-94CD-B4CA55800F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "..\Core\1.0\Tests\CoreTest\CoreTest.csproj", "{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CdtsGame", "CdtsGame", "{BB343E98-0E38-443E-A11A-54FFE8661A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyFourPoints", "1.0\Source\TwentyFourPoints\TwentyFourPoints.csproj", "{83304CCA-2764-496B-8446-0C74995952AF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Core\\1.0\\Source\\CdtsGame.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = Card.sln
+		SccProjectName1 = ../Core/1.0/Source
+		SccLocalPath1 = ..\\Core\\1.0\\Source
+		SccProjectUniqueName2 = ..\\Core\\1.0\\Silverlight\\CdtsGame.Core.Silverlight.csproj
+		SccProjectTopLevelParentUniqueName2 = Card.sln
+		SccProjectName2 = ../Core/1.0/Silverlight
+		SccLocalPath2 = ..\\Core\\1.0\\Silverlight
+		SccProjectUniqueName3 = 1.0\\Source\\Solitaire\\Solitaire.csproj
+		SccProjectName3 = 1.0/Source/Solitaire
+		SccLocalPath3 = 1.0\\Source\\Solitaire
+		SccProjectUniqueName4 = 1.0\\Source\\Web\\Web.csproj
+		SccProjectName4 = 1.0/Source/Web
+		SccLocalPath4 = 1.0\\Source\\Web
+		SccProjectUniqueName5 = ..\\Core\\1.0\\Tests\\CoreTest\\CoreTest.csproj
+		SccProjectTopLevelParentUniqueName5 = Card.sln
+		SccProjectName5 = ../Core/1.0/Tests/CoreTest
+		SccLocalPath5 = ..\\Core\\1.0\\Tests\\CoreTest
+		SccProjectUniqueName6 = 1.0\\Source\\TwentyFourPoints\\TwentyFourPoints.csproj
+		SccProjectName6 = 1.0/Source/TwentyFourPoints
+		SccLocalPath6 = 1.0\\Source\\TwentyFourPoints
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133D7BE1-BC09-4D46-8784-8F49251665F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133D7BE1-BC09-4D46-8784-8F49251665F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133D7BE1-BC09-4D46-8784-8F49251665F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133D7BE1-BC09-4D46-8784-8F49251665F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73F9009-CBEF-4008-94CD-B4CA55800F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73F9009-CBEF-4008-94CD-B4CA55800F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73F9009-CBEF-4008-94CD-B4CA55800F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73F9009-CBEF-4008-94CD-B4CA55800F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83304CCA-2764-496B-8446-0C74995952AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83304CCA-2764-496B-8446-0C74995952AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83304CCA-2764-496B-8446-0C74995952AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83304CCA-2764-496B-8446-0C74995952AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82323500-F18F-467A-81DC-A8D305F49810} = {BB343E98-0E38-443E-A11A-54FFE8661A81}
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB} = {BB343E98-0E38-443E-A11A-54FFE8661A81}
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003} = {BB343E98-0E38-443E-A11A-54FFE8661A81}
+	EndGlobalSection
+EndGlobal

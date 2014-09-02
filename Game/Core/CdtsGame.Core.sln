@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.Core", "1.0\Source\CdtsGame.Core.csproj", "{6388FC36-4FB0-49AE-B625-43E29FBCB003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdtsGame.Core.Silverlight", "1.0\Silverlight\CdtsGame.Core.Silverlight.csproj", "{82323500-F18F-467A-81DC-A8D305F49810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "1.0\Tests\CoreTest\CoreTest.csproj", "{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{166D9AC6-7A4D-4E74-A6A5-D14063AEF6D6}"
+	ProjectSection(SolutionItems) = preProject
+		CdtsGame.Core.vsmdi = CdtsGame.Core.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CEBA20AE-3912-4C52-978E-9813BE68B34F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.0\\Silverlight\\CdtsGame.Core.Silverlight.csproj
+		SccProjectName1 = 1.0/Silverlight
+		SccLocalPath1 = 1.0\\Silverlight
+		SccProjectUniqueName2 = 1.0\\Source\\CdtsGame.Core.csproj
+		SccProjectName2 = 1.0/Source
+		SccLocalPath2 = 1.0\\Source
+		SccProjectUniqueName3 = 1.0\\Tests\\CoreTest\\CoreTest.csproj
+		SccProjectTopLevelParentUniqueName3 = CdtsGame.Core.sln
+		SccProjectName3 = 1.0/Tests/CoreTest
+		SccLocalPath3 = 1.0\\Tests\\CoreTest
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CdtsGame.Core.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6388FC36-4FB0-49AE-B625-43E29FBCB003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82323500-F18F-467A-81DC-A8D305F49810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{106E544E-DEB1-4927-B2CF-0EDDCE27B9FB} = {CEBA20AE-3912-4C52-978E-9813BE68B34F}
+	EndGlobalSection
+EndGlobal

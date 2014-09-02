@@ -1,0 +1,5 @@
+D:\Program Files\Projects\cdtsgame\Card\1.0\Source\Web\bin\Web.dll
+D:\Program Files\Projects\cdtsgame\Card\1.0\Source\Web\bin\Web.pdb
+D:\Program Files\Projects\cdtsgame\Card\1.0\Source\Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Projects\cdtsgame\Card\1.0\Source\Web\obj\Debug\Web.dll
+D:\Program Files\Projects\cdtsgame\Card\1.0\Source\Web\obj\Debug\Web.pdb

@@ -1,0 +1,5 @@
+D:\Program Files\Projects\cdtsgame\Core\1.0\Source\bin\Debug\CdtsGame.Core.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Source\bin\Debug\CdtsGame.Core.pdb
+D:\Program Files\Projects\cdtsgame\Core\1.0\Source\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Projects\cdtsgame\Core\1.0\Source\obj\Debug\CdtsGame.Core.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Source\obj\Debug\CdtsGame.Core.pdb

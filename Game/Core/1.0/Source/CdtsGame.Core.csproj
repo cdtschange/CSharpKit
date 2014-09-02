@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6388FC36-4FB0-49AE-B625-43E29FBCB003}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CdtsGame.Core</RootNamespace>
+    <AssemblyName>CdtsGame.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card\CardImageLib.cs" />
+    <Compile Include="Card\ICard.cs" />
+    <Compile Include="Card\ICardStackBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sudoku\Facade.cs" />
+    <Compile Include="Sudoku\ISudoku.cs" />
+    <Compile Include="Sudoku\Sudoku.cs" />
+    <Compile Include="Sudoku\SudokuType.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Card\Solitaire\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Card\C1.png" />
+    <Content Include="Images\Card\C10.png" />
+    <Content Include="Images\Card\C2.png" />
+    <Content Include="Images\Card\C3.png" />
+    <Content Include="Images\Card\C4.png" />
+    <Content Include="Images\Card\C5.png" />
+    <Content Include="Images\Card\C6.png" />
+    <Content Include="Images\Card\C7.png" />
+    <Content Include="Images\Card\C8.png" />
+    <Content Include="Images\Card\C9.png" />
+    <Content Include="Images\Card\CJ.png" />
+    <Content Include="Images\Card\CK.png" />
+    <Content Include="Images\Card\CQ.png" />
+    <Content Include="Images\Card\D1.png" />
+    <Content Include="Images\Card\D10.png" />
+    <Content Include="Images\Card\D2.png" />
+    <Content Include="Images\Card\D3.png" />
+    <Content Include="Images\Card\D4.png" />
+    <Content Include="Images\Card\D5.png" />
+    <Content Include="Images\Card\D6.png" />
+    <Content Include="Images\Card\D7.png" />
+    <Content Include="Images\Card\D8.png" />
+    <Content Include="Images\Card\D9.png" />
+    <Content Include="Images\Card\DJ.png" />
+    <Content Include="Images\Card\DK.png" />
+    <Content Include="Images\Card\DQ.png" />
+    <Content Include="Images\Card\H1.png" />
+    <Content Include="Images\Card\H10.png" />
+    <Content Include="Images\Card\H2.png" />
+    <Content Include="Images\Card\H3.png" />
+    <Content Include="Images\Card\H4.png" />
+    <Content Include="Images\Card\H5.png" />
+    <Content Include="Images\Card\H6.png" />
+    <Content Include="Images\Card\H7.png" />
+    <Content Include="Images\Card\H8.png" />
+    <Content Include="Images\Card\H9.png" />
+    <Content Include="Images\Card\HJ.png" />
+    <Content Include="Images\Card\HK.png" />
+    <Content Include="Images\Card\HQ.png" />
+    <Content Include="Images\Card\Null.png" />
+    <Content Include="Images\Card\Null2.png" />
+    <Content Include="Images\Card\S1.png" />
+    <Content Include="Images\Card\S10.png" />
+    <Content Include="Images\Card\S2.png" />
+    <Content Include="Images\Card\S3.png" />
+    <Content Include="Images\Card\S4.png" />
+    <Content Include="Images\Card\S5.png" />
+    <Content Include="Images\Card\S6.png" />
+    <Content Include="Images\Card\S7.png" />
+    <Content Include="Images\Card\S8.png" />
+    <Content Include="Images\Card\S9.png" />
+    <Content Include="Images\Card\SJ.png" />
+    <Content Include="Images\Card\SK.png" />
+    <Content Include="Images\Card\SQ.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

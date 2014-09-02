@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82323500-F18F-467A-81DC-A8D305F49810}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CdtsGame.Core.Silverlight</RootNamespace>
+    <AssemblyName>CdtsGame.Core.Silverlight</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Effects" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Source\Card\CardImageLib.cs">
+      <Link>Card\CardImageLib.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Card\ICard.cs">
+      <Link>Card\ICard.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Card\ICardStackBase.cs">
+      <Link>Card\ICardStackBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Sudoku\Facade.cs">
+      <Link>Sudoku\Facade.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Sudoku\ISudoku.cs">
+      <Link>Sudoku\ISudoku.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Sudoku\Sudoku.cs">
+      <Link>Sudoku\Sudoku.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Sudoku\SudokuType.cs">
+      <Link>Sudoku\SudokuType.cs</Link>
+    </Compile>
+    <Compile Include="Card\Card.xaml.cs">
+      <DependentUpon>Card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Card\CardStackBase.cs" />
+    <Compile Include="Card\Solitaire\SolitaireStackBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Card\Card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\C1.png" />
+    <Resource Include="Images\C10.png" />
+    <Resource Include="Images\C2.png" />
+    <Resource Include="Images\C3.png" />
+    <Resource Include="Images\C4.png" />
+    <Resource Include="Images\C5.png" />
+    <Resource Include="Images\C6.png" />
+    <Resource Include="Images\C7.png" />
+    <Resource Include="Images\C8.png" />
+    <Resource Include="Images\C9.png" />
+    <Resource Include="Images\CJ.png" />
+    <Resource Include="Images\CK.png" />
+    <Resource Include="Images\CQ.png" />
+    <Resource Include="Images\D1.png" />
+    <Resource Include="Images\D10.png" />
+    <Resource Include="Images\D2.png" />
+    <Resource Include="Images\D3.png" />
+    <Resource Include="Images\D4.png" />
+    <Resource Include="Images\D5.png" />
+    <Resource Include="Images\D6.png" />
+    <Resource Include="Images\D7.png" />
+    <Resource Include="Images\D8.png" />
+    <Resource Include="Images\D9.png" />
+    <Resource Include="Images\DJ.png" />
+    <Resource Include="Images\DK.png" />
+    <Resource Include="Images\DQ.png" />
+    <Resource Include="Images\H1.png" />
+    <Resource Include="Images\H10.png" />
+    <Resource Include="Images\H2.png" />
+    <Resource Include="Images\H3.png" />
+    <Resource Include="Images\H4.png" />
+    <Resource Include="Images\H5.png" />
+    <Resource Include="Images\H6.png" />
+    <Resource Include="Images\H7.png" />
+    <Resource Include="Images\H8.png" />
+    <Resource Include="Images\H9.png" />
+    <Resource Include="Images\HJ.png" />
+    <Resource Include="Images\HK.png" />
+    <Resource Include="Images\HQ.png" />
+    <Resource Include="Images\Null.png" />
+    <Resource Include="Images\Null2.png" />
+    <Resource Include="Images\S1.png" />
+    <Resource Include="Images\S10.png" />
+    <Resource Include="Images\S2.png" />
+    <Resource Include="Images\S3.png" />
+    <Resource Include="Images\S4.png" />
+    <Resource Include="Images\S5.png" />
+    <Resource Include="Images\S6.png" />
+    <Resource Include="Images\S7.png" />
+    <Resource Include="Images\S8.png" />
+    <Resource Include="Images\S9.png" />
+    <Resource Include="Images\SJ.png" />
+    <Resource Include="Images\SK.png" />
+    <Resource Include="Images\SQ.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

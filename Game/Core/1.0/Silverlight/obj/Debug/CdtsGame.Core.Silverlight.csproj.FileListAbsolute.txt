@@ -1,0 +1,13 @@
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\CdtsGame.Core.Silverlight.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\CdtsGame.Core.Silverlight.pdb
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\Microsoft.Expression.Effects.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\System.Windows.Interactivity.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\Microsoft.Expression.Effects.xml
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\Bin\Debug\System.Windows.Interactivity.xml
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\obj\Debug\CdtsGame.Core.Silverlight.g.resources
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\obj\Debug\CdtsGame.Core.Silverlight.dll
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\obj\Debug\CdtsGame.Core.Silverlight.pdb
+D:\Program Files\Projects\cdtsgame\Core\1.0\Silverlight\obj\Debug\Card\Card.g.i.cs
