@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Group>
+  <User>
+    <Name property="p1">user1</Name>
+    <Password language="en">123</Password>
+  </User>
+  <User>
+    <Name property="p2">user2</Name>
+    <Password language="cn">321</Password>
+  </User>
+</Group>

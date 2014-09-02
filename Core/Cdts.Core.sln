@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Core.Silverlight", "1.0\Silverlight\Cdts.Core.Silverlight.csproj", "{472091F9-1077-43C0-8888-1EE4346B0C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "1.0\Tests\CoreTest\CoreTest.csproj", "{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8646895F-635C-4303-AEDA-BA16220E933A}"
+	ProjectSection(SolutionItems) = preProject
+		Cdts.Core.vsmdi = Cdts.Core.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Core", "1.0\Source\Core\Cdts.Core.csproj", "{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Utility", "1.0\Source\Utility\Cdts.Utility.csproj", "{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTest", "1.0\Tests\UtilityTest\UtilityTest.csproj", "{6C254487-C97B-4848-850E-839F358BB15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Web", "1.0\Source\Web\Cdts.Web.csproj", "{EB386D28-1D2D-475B-A9E6-C9F830472EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Algorithm", "1.0\Source\Algorithm\Cdts.Algorithm.csproj", "{3B042D4B-2D8F-4FEC-9DF1-1AA2DF305E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmTest", "1.0\Tests\AlgorithmTest\AlgorithmTest.csproj", "{6D408C65-0DE1-4959-91EC-47084A4BAEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "1.0\Tests\WebTest\WebTest.csproj", "{F5BB6928-3249-4146-839D-E8A53178374E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.0\\Silverlight\\Cdts.Core.Silverlight.csproj
+		SccProjectName1 = 1.0/Silverlight
+		SccLocalPath1 = 1.0\\Silverlight
+		SccProjectUniqueName2 = 1.0\\Tests\\CoreTest\\CoreTest.csproj
+		SccProjectTopLevelParentUniqueName2 = Cdts.Core.sln
+		SccProjectName2 = 1.0/Tests/CoreTest
+		SccLocalPath2 = 1.0\\Tests\\CoreTest
+		SccProjectUniqueName3 = 1.0\\Source\\Utility\\Cdts.Utility.csproj
+		SccProjectName3 = 1.0/Source/Utility
+		SccLocalPath3 = 1.0\\Source\\Utility
+		SccProjectUniqueName4 = 1.0\\Source\\Core\\Cdts.Core.csproj
+		SccProjectName4 = 1.0/Source/Core
+		SccLocalPath4 = 1.0\\Source\\Core
+		SccProjectUniqueName5 = 1.0\\Tests\\UtilityTest\\UtilityTest.csproj
+		SccProjectTopLevelParentUniqueName5 = Cdts.Core.sln
+		SccProjectName5 = 1.0/Tests/UtilityTest
+		SccLocalPath5 = 1.0\\Tests\\UtilityTest
+		SccProjectUniqueName6 = 1.0\\Source\\Web\\Cdts.Web.csproj
+		SccProjectName6 = 1.0/Source/Web
+		SccLocalPath6 = 1.0\\Source\\Web
+		SccProjectUniqueName7 = 1.0\\Source\\Algorithm\\Cdts.Algorithm.csproj
+		SccProjectName7 = 1.0/Source/Algorithm
+		SccLocalPath7 = 1.0\\Source\\Algorithm
+		SccProjectUniqueName8 = 1.0\\Tests\\AlgorithmTest\\AlgorithmTest.csproj
+		SccProjectTopLevelParentUniqueName8 = Cdts.Core.sln
+		SccProjectName8 = 1.0/Tests/AlgorithmTest
+		SccLocalPath8 = 1.0\\Tests\\AlgorithmTest
+		SccProjectUniqueName9 = 1.0\\Tests\\WebTest\\WebTest.csproj
+		SccProjectTopLevelParentUniqueName9 = Cdts.Core.sln
+		SccProjectName9 = 1.0/Tests/WebTest
+		SccLocalPath9 = 1.0\\Tests\\WebTest
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Cdts.Core.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472091F9-1077-43C0-8888-1EE4346B0C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472091F9-1077-43C0-8888-1EE4346B0C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472091F9-1077-43C0-8888-1EE4346B0C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472091F9-1077-43C0-8888-1EE4346B0C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C254487-C97B-4848-850E-839F358BB15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C254487-C97B-4848-850E-839F358BB15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C254487-C97B-4848-850E-839F358BB15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C254487-C97B-4848-850E-839F358BB15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B042D4B-2D8F-4FEC-9DF1-1AA2DF305E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B042D4B-2D8F-4FEC-9DF1-1AA2DF305E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B042D4B-2D8F-4FEC-9DF1-1AA2DF305E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B042D4B-2D8F-4FEC-9DF1-1AA2DF305E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D408C65-0DE1-4959-91EC-47084A4BAEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D408C65-0DE1-4959-91EC-47084A4BAEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D408C65-0DE1-4959-91EC-47084A4BAEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D408C65-0DE1-4959-91EC-47084A4BAEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BB6928-3249-4146-839D-E8A53178374E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BB6928-3249-4146-839D-E8A53178374E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BB6928-3249-4146-839D-E8A53178374E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BB6928-3249-4146-839D-E8A53178374E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BB8C1E4-6A95-4FB0-AF67-64360BE6CE5B} = {CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}
+		{8646895F-635C-4303-AEDA-BA16220E933A} = {CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}
+		{6C254487-C97B-4848-850E-839F358BB15F} = {CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}
+		{6D408C65-0DE1-4959-91EC-47084A4BAEA4} = {CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}
+		{F5BB6928-3249-4146-839D-E8A53178374E} = {CC00FAD2-0927-4DD8-8AA0-0DA527C0C207}
+	EndGlobalSection
+EndGlobal

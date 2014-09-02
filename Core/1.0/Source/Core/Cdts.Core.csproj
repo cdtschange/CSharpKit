@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cdts.Core</RootNamespace>
+    <AssemblyName>Cdts.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReflectionLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\FastReflectionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.3.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PostSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\PostSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aop\CoreLoggingAttribute.cs" />
+    <Compile Include="Aop\CoreTransactionAttribute.cs" />
+    <Compile Include="Config\Configuration.cs" />
+    <Compile Include="Data\IDataContext.cs" />
+    <Compile Include="Resources\Resources.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unity\DynamicLibrary.cs" />
+    <Compile Include="Entity\ILogicalDeleted.cs" />
+    <Compile Include="Entity\IOrdered.cs" />
+    <Compile Include="Entity\IPKey.cs" />
+    <Compile Include="Entity\ITree.cs" />
+    <Compile Include="Entity\IVersion.cs" />
+    <Compile Include="Expression\CoreExpression.cs" />
+    <Compile Include="Expression\CoreOrderBy.cs" />
+    <Compile Include="Expression\SelectorParser.cs" />
+    <Compile Include="Extends.cs" />
+    <Compile Include="Manager\IGetObject.cs" />
+    <Compile Include="Manager\ManagerGetObject.cs" />
+    <Compile Include="Metadata\BasedDataContextMetadataManager.cs" />
+    <Compile Include="Metadata\IMetadataManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Metadata\KnownTypes.cs" />
+    <Compile Include="Metadata\TypeMetadata.cs" />
+    <Compile Include="Unity\PerRequestLifetimeManager.cs" />
+    <Compile Include="Validation\EntLibValidation.cs" />
+    <Compile Include="Manager\IManager.cs" />
+    <Compile Include="Manager\Manager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transaction\DataTransactionScope.cs" />
+    <Compile Include="Transaction\DataContextTransaction.cs" />
+    <Compile Include="Transaction\IDataTransaction.cs" />
+    <Compile Include="Transaction\ITransactionable.cs" />
+    <Compile Include="Validation\IValidation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CdtsCore.resx" />
+    <None Include="Resources\Resources.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Resources.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cdts.Core.resources">
+      <DependentUpon>Resources.tt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\FastReflectionLib.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Validation.dll" />
+    <Content Include="DLL\Microsoft.Practices.Unity.dll" />
+    <Content Include="DLL\Newtonsoft.Json.dll" />
+    <Content Include="DLL\PostSharp.dll" />
+    <Content Include="Javascript\Cdts.js" />
+    <Content Include="Javascript\Extend.js" />
+    <Content Include="Javascript\TomUncle\1.js" />
+    <Content Include="Javascript\TomUncle\1.htm" />
+    <Content Include="Javascript\TomUncle\2.htm" />
+    <Content Include="Javascript\TomUncle\2.js" />
+    <Content Include="Javascript\TomUncle\3.htm" />
+    <Content Include="Javascript\TomUncle\3.js" />
+    <Content Include="Javascript\TomUncle\4.htm" />
+    <Content Include="Javascript\TomUncle\4.js" />
+    <Content Include="Javascript\TomUncle\5.htm" />
+    <Content Include="Javascript\TomUncle\5.js" />
+    <Content Include="Javascript\TomUncle\6.htm" />
+    <Content Include="Javascript\TomUncle\6.js" />
+    <Content Include="Javascript\TomUncle\7.htm" />
+    <Content Include="Javascript\TomUncle\7.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

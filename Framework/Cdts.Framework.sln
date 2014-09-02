@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Framework", "1.0\Source\Framework\Cdts.Framework.csproj", "{339513B1-31D5-48EA-B88F-29A5D5460733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Core", "..\Core\1.0\Source\Core\Cdts.Core.csproj", "{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Utility", "..\Core\1.0\Source\Utility\Cdts.Utility.csproj", "{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdts.Web", "..\Core\1.0\Source\Web\Cdts.Web.csproj", "{EB386D28-1D2D-475B-A9E6-C9F830472EA5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Core\\1.0\\Source\\Core\\Cdts.Core.csproj
+		SccProjectName1 = ../Core/1.0/Source/Core
+		SccLocalPath1 = ..\\Core\\1.0\\Source\\Core
+		SccProjectUniqueName2 = 1.0\\Source\\Framework\\Cdts.Framework.csproj
+		SccProjectName2 = 1.0/Source/Framework
+		SccLocalPath2 = 1.0\\Source\\Framework
+		SccProjectUniqueName3 = ..\\Core\\1.0\\Source\\Utility\\Cdts.Utility.csproj
+		SccProjectName3 = ../Core/1.0/Source/Utility
+		SccLocalPath3 = ..\\Core\\1.0\\Source\\Utility
+		SccProjectUniqueName4 = ..\\Core\\1.0\\Source\\Web\\Cdts.Web.csproj
+		SccProjectName4 = ../Core/1.0/Source/Web
+		SccLocalPath4 = ..\\Core\\1.0\\Source\\Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339513B1-31D5-48EA-B88F-29A5D5460733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339513B1-31D5-48EA-B88F-29A5D5460733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339513B1-31D5-48EA-B88F-29A5D5460733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339513B1-31D5-48EA-B88F-29A5D5460733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D46C0C2-2BB8-408A-BBC6-157098F75AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDCB7CF-929D-4A0C-B03E-8F88F06D6B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB386D28-1D2D-475B-A9E6-C9F830472EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
